@@ -1,0 +1,211 @@
+body{
+    background-color: #1b1833;
+    font-family: 'Recursive', sans-serif;;
+}
+
+img {
+    width: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.cabecalho_lista{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.cabecalho_logo{
+    max-width: 100px;
+}
+.cabecalho_lista_item{
+    color: rgb(74, 23, 168);
+    text-decoration: none;
+    font-weight: 700;
+    transition: ease-in-out 250ms;
+}
+
+.cabecalho_lista_item:hover {
+    color: #ba52ff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    gap: 1rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo img {
+    width: 4rem;
+}
+.inicio{
+    background-image: url("./tela-de-fundo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    /* align-items: center; */
+}
+.inicio_caixinha{
+    height: 20rem;
+    padding: 1rem 0;
+    background-color: #f1f1f1b0;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inicio p {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+.categorias{
+    color: rgb(26, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70vw;
+    height: 90vh;
+    margin: 0 auto;
+}
+.categorias_titulo{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.categorias_cards{
+    display: flex;
+}
+.categorias_cards_card{
+    border: 1px solid rgb(36, 36, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 50px;
+    gap: 30px;
+    text-align: center;
+}
+.categorias_cards_card_titulo{
+    font-size: 25px;
+}
+
+.categorias_cards_card_texto{
+    font-size: 15px;
+}
+
+.categorias_cards_card_botao{
+    color: blockquote(255, 255, 255);
+    border: 1px solid black;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-size: 12px;
+}.sobre{
+    background-image: url("./tela-de-fundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_caixinha{
+    background-color: rgba(255, 255, 255, 0.798);
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.sobre_caixinha_titulo{
+    font-size: 32px;
+}
+
+.sobre_caixinha_texto{
+    line-height: 1.6;
+}
+.sobre{
+    background-image: url("tela-de-fundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_caixinha{
+    background-color: rgba(255, 255, 255, 0.798);
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.sobre_caixinha_titulo{
+    font-size: 32px;
+}
+
+.sobre_caixinha_texto{
+    line-height: 1.6;
+}
+
+.rodape{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    gap: 5px;
+}
+.rodape_textoDestaque{
+    font-size: 20px;
+}
+
+.rodape_textoNormal{
+    color: rgb(175, 175, 175);
+    font-size: 14px;
+}
+
+.rodape_textoAutor{
+    align-self: flex-end;
+    color: rgb(175, 175, 175);
+    font-size: 14px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
